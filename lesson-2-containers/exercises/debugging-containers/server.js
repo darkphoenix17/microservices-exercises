@@ -9,7 +9,7 @@ function getDate() {
 async function main() {
   while(true) {
     try  {
-      console.log(getData());
+      console.log(getDate()); //fixed the typo error 
     }
     catch(e) {
       console.log(e);
