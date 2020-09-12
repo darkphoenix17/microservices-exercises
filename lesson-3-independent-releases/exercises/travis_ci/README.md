@@ -9,5 +9,9 @@ This is a very simple, bare-bones NodeJS project created for you to use with Doc
 * Build image: `docker build .`
 * Run container with image: `docker run {image_id}` where `image_id` can be retrieved by running `docker images` and found under the column `IMAGE ID`
 
+## Travis Set-up also added
+* .travis.yml has the script for CI/CD.
+* Change the "${<variable>}" in the travis config as per credentials.
+
 # Container teardown
 * Remove container: `docker kill {container_id}` where `container_id` can be retrieved by running `docker ps` and found under the column `CONTAINER ID`
