@@ -15,7 +15,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: simple-api
-        image: "$YOUR_DOCKER_HUB"/simple-api
+      - name: simple-node-kube
+        image: darkphoenix17/simple-node
         ports:
         - containerPort: 80
